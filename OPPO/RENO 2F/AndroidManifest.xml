@@ -7,3 +7,4 @@
         	android:requiredSystemPropertyValue="+*alps/oppo6771*"
 		android:priority="591"
 		android:isStatic="true" />
+</manifest>
