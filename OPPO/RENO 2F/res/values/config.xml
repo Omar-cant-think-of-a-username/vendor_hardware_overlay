@@ -202,18 +202,15 @@
   <bool name="config_device_vt_available">false</bool>
   <bool name="config_device_wfc_ims_available">false</bool>
   <bool name="config_dynamic_bind_ims">false</bool>
-  <bool name="config_enableMultiUserUI">false</bool>
   <bool name="config_hotswapCapable">false</bool>
   <bool name="config_setColorTransformAccelerated">false</bool>
   <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
-  <bool name="config_unplugTurnsOnScreen">false</bool>
   <bool name="config_useDevInputEventForAudioJack">false</bool>
   <bool name="skip_restoring_network_selection">false</bool>
   <bool name="config_device_volte_available">false</bool>
   <bool name="config_device_vt_available">false</bool>
   <bool name="config_device_wfc_ims_available">false</bool>
 
-  <integer name="config_multiuserMaximumUsers">4</integer>
   <integer name="config_valid_wappush_index">4</integer>
 
   <string name="config_defaultDialer">com.android.contacts</string>
