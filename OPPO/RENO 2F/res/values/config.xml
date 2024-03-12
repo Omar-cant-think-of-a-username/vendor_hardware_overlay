@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <array name="config_defaultPinnerServiceFiles">
+ </array>
 <array name="config_tether_bluetooth_regexs">
     <item name="@ref/1000001">bt-pan</item>
     <item name="@ref/1000002">bt-dun</item>
