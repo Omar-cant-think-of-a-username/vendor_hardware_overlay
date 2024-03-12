@@ -4,6 +4,6 @@
         android:versionName="1.0">
         <overlay android:targetPackage="android"
         	android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
-        	android:requiredSystemPropertyValue="+*brandName/modelName*"
-		android:priority="yourSuggestedPriorityNumber"
+        	android:requiredSystemPropertyValue="+*alps/oppo6771*"
+		android:priority="508"
 		android:isStatic="true" />
