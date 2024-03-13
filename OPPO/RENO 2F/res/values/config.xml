@@ -50,6 +50,7 @@
   <bool name="config_enableBurnInProtection">true</bool>
   <bool name="config_displayBlanksAfterDoze">false</bool>   <bool name="config_dozeAfterScreenOff">true</bool>
   <bool name="config_dozeAfterScreenOffByDefault">true</bool>
+  <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
   <bool name="config_device_volte_available">false</bool>
   <bool name="config_device_vt_available">false</bool>
   <bool name="config_device_wfc_ims_available">false</bool>
