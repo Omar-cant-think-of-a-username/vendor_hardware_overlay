@@ -54,7 +54,6 @@
   <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
   <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
   <bool name="config_lidControlsSleep">true</bool>
-  <bool name="config_automatic_brightness_available">true</bool>
 
 
  
