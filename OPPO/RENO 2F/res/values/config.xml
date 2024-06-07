@@ -68,9 +68,7 @@
   <bool name="skip_restoring_network_selection">false</bool>
 
 
-  <dimen name="config_screenBrightnessSettingDefaultFloat">0.400000</dimen>
-  <dimen name="config_screenBrightnessSettingMaximumFloat">1.000000</dimen>
-  <dimen name="config_screenBrightnessSettingMinimumFloat">0.000000</dimen>
+
 
 
   <integer name="config_bluetooth_max_connected_audio_devices">1</integer>
