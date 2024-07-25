@@ -1,82 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<array name="config_defaultPinnerServiceFiles">
- </array>
-<array name="config_tether_bluetooth_regexs">
-    <item name="@ref/1000001">bt-pan</item>
-    <item name="@ref/1000002">bt-dun</item>
-  </array>
-  <array name="config_tether_usb_regexs">
-    <item name="@ref/1000001">rndis\d</item>
-  </array>
-  <array name="config_tether_wifi_regexs">
-    <item name="@ref/1000001">ap\d</item>
-  </array>
-  <array name="networkAttributes">
-    <item name="@ref/1000001">wifi,1,1,1,-1,true</item>
-    <item name="@ref/1000002">mobile,0,0,0,-1,true</item>
-    <item name="@ref/1000003">mobile_mms,2,0,2,60000,true</item>
-    <item name="@ref/1000004">mobile_supl,3,0,2,60000,true</item>
-    <item name="@ref/1000005">mobile_dun,4,0,2,60000,true</item>
-    <item name="@ref/1000006">mobile_hipri,5,0,3,60000,true</item>
-    <item name="@ref/1000007">ethernet,9,9,9,-1,true</item>
-    <item name="@ref/1000008">mobile_fota,10,0,2,60000,true</item>
-    <item name="@ref/1000009">mobile_ims,11,0,-1,-1,true</item>
-    <item name="@ref/100000a">mobile_cbs,12,0,2,60000,true</item>
-    <item name="@ref/100000b">wifi_p2p,13,1,0,-1,true</item>
-    <item name="@ref/100000c">mobile_ia,14,0,2,-1,true</item>
-    <item name="@ref/100000d">mobile_emergency,15,0,2,-1,true</item>
-    <item name="@ref/100000e">mobile_mcx,1001,0,3,60000,true</item>
-    <item name="@ref/100000f">mobile_xcap,1002,0,3,60000,true</item>
-    <item name="@ref/1000010">mobile_rcs,2001,0,3,60000,true</item>
-    <item name="@ref/1000011">mobile_bip,2002,0,3,60000,true</item>
-    <item name="@ref/1000012">mobile_vsim,2003,0,-1,60000,true</item>
-    <item name="@ref/1000013">bluetooth,7,7,2,-1,true</item>
-  </array>
-  <array name="config_mobile_tcp_buffers">
-    <item name="@ref/1000001">gprs:4092,8760,48000,4096,8760,48000</item>
-    <item name="@ref/1000002">edge:4093,26280,70800,4096,16384,70800</item>
-    <item name="@ref/1000003">umts:58254,1398100,4194304,58254,1398100,4194304</item>
-    <item name="@ref/1000004">1xrtt:16384,32768,131072,4096,16384,102400</item>
-    <item name="@ref/1000005">evdo:4094,87380,262144,4096,16384,262144</item>
-    <item name="@ref/1000006">ehrpd:131072,262144,1048576,4096,16384,524288</item>
-    <item name="@ref/1000007">hsdpa:58254,1398100,4194304,58254,1398100,4194304</item>
-    <item name="@ref/1000008">hspa:58254,1398100,4194304,58254,1398100,4194304</item>
-    <item name="@ref/1000009">lte:2097152,4194304,8388608,262144,524288,1048576</item>
-    <item name="@ref/100000a">hspap:58254,1398100,4194304,58254,1398100,4194304</item>
-  </array>
+<complex name="config_defaultPinnerServiceFiles">
+        <string id="0x02000000">/system/framework/framework.jar</string>
+        <string id="0x02000001">/system/framework/services.jar</string>
+        <string id="0x02000002">/apex/com.android.art/javalib/core-oj.jar</string>
+        <string id="0x02000003">/apex/com.android.art/javalib/core-libart.jar</string>
+        <string id="0x02000004">/system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk</string>
+        <string id="0x02000005">/system/bin/surfaceflinger</string>
+    </complex>
+    <complex name="config_tether_bluetooth_regexs">
+        <string id="0x02000000">bt-pan</string>
+        <string id="0x02000001">bt-dun</string>
+    </complex>
+    <complex name="config_tether_usb_regexs">
+        <string id="0x02000000">rndis</string>
+    </complex>
+    <complex name="config_tether_wifi_regexs">
+        <string id="0x02000000">ap</string>
+    </complex>
+    <complex name="networkAttributes">
+        <string id="0x02000000">wifi,1,1,1,-1,true</string>
+        <string id="0x02000001">mobile,0,0,0,-1,true</string>
+        <string id="0x02000002">mobile_mms,2,0,2,60000,true</string>
+        <string id="0x02000003">mobile_supl,3,0,2,60000,true</string>
+        <string id="0x02000004">mobile_dun,4,0,2,60000,true</string>
+        <string id="0x02000005">mobile_hipri,5,0,3,60000,true</string>
+        <string id="0x02000006">ethernet,9,9,9,-1,true</string>
+        <string id="0x02000007">mobile_fota,10,0,2,60000,true</string>
+        <string id="0x02000008">mobile_ims,11,0,-1,-1,true</string>
+        <string id="0x02000009">mobile_cbs,12,0,2,60000,true</string>
+        <string id="0x0200000a">wifi_p2p,13,1,0,-1,true</string>
+        <string id="0x0200000b">mobile_ia,14,0,2,-1,true</string>
+        <string id="0x0200000c">mobile_emergency,15,0,2,-1,true</string>
+        <string id="0x0200000d">mobile_mcx,1001,0,3,60000,true</string>
+        <string id="0x0200000e">mobile_xcap,1002,0,3,60000,true</string>
+        <string id="0x0200000f">mobile_rcs,2001,0,3,60000,true</string>
+        <string id="0x02000010">mobile_bip,2002,0,3,60000,true</string>
+        <string id="0x02000011">mobile_vsim,2003,0,-1,60000,true</string>
+        <string id="0x02000012">bluetooth,7,7,2,-1,true</string>
+    </complex>
+    <complex name="config_mobile_tcp_buffers">
+        <string id="0x02000000">gprs:4092,8760,48000,4096,8760,48000</string>
+        <string id="0x02000001">edge:4093,26280,70800,4096,16384,70800</string>
+        <string id="0x02000002">umts:58254,1398100,4194304,58254,1398100,4194304</string>
+        <string id="0x02000003">1xrtt:16384,32768,131072,4096,16384,102400</string>
+        <string id="0x02000004">evdo:4094,87380,262144,4096,16384,262144</string>
+        <string id="0x02000005">ehrpd:131072,262144,1048576,4096,16384,524288</string>
+        <string id="0x02000006">hsdpa:58254,1398100,4194304,58254,1398100,4194304</string>
+        <string id="0x02000007">hspa:58254,1398100,4194304,58254,1398100,4194304</string>
+        <string id="0x02000008">lte:2097152,4194304,8388608,262144,524288,1048576</string>
+        <string id="0x02000009">hspap:58254,1398100,4194304,58254,1398100,4194304</string>
+    </complex>
 
-  <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
-  <bool name="config_enableBurnInProtection">true</bool>
-  <bool name="config_displayBlanksAfterDoze">false</bool>   <bool name="config_dozeAfterScreenOff">true</bool>
-  <bool name="config_dozeAfterScreenOffByDefault">false</bool>
-  <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
-  <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
-  <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
-  <bool name="config_lidControlsSleep">true</bool>
+    <string name="config_ims_package">com.mediatek.ims</string>
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <string name="config_displayLightSensorType">android.sensor.light</string>
 
+    <integer name="config_bluetooth_max_connected_audio_devices">1</integer>
+    <integer name="config_screenBrightnessDoze">30</integer>
 
- 
-  <bool name="config_device_volte_available">false</bool>
-  <bool name="config_device_vt_available">false</bool>
-  <bool name="config_device_wfc_ims_available">false</bool>
-  <bool name="config_dynamic_bind_ims">false</bool>
-  <bool name="config_hotswapCapable">false</bool>
-  <bool name="config_setColorTransformAccelerated">false</bool>
-  <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
-  <bool name="config_useDevInputEventForAudioJack">false</bool>
-  <bool name="skip_restoring_network_selection">false</bool>
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
+    <bool name="config_enableBurnInProtection">true</bool>
+    <bool name="config_displayBlanksAfterDoze">false</bool>
+    <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_dozeAfterScreenOffByDefault">false</bool>
+    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
+    <bool name="config_device_volte_available">false</bool>
+    <bool name="config_device_vt_available">false</bool>
+    <bool name="config_device_wfc_ims_available">false</bool>
+    <bool name="config_dynamic_bind_ims">false</bool>
+    <bool name="config_hotswapCapable">true</bool>
+    <bool name="config_setColorTransformAccelerated">true</bool>
+    <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
+    <bool name="config_useDevInputEventForAudioJack">true</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <bool name="config_unplugTurnsOnScreen">true</bool>
+    <bool name="config_suspendWhenScreenOffDueToProximity">false</bool>
+    <bool name="config_automatic_brightness_available">false</bool>
+    <bool name="config_enableWifiDisplay">true</bool>
+    <bool name="doze_suspend_display_state_supported">false</bool>
+    <bool name="doze_display_state_supported">true</bool>
+    <bool name="config_lidControlsSleep">true</bool>
 
+    <dimen name="physical_power_button_center_screen_location_y">1050.0px</dimen>
 
-
-
-
-  <integer name="config_bluetooth_max_connected_audio_devices">1</integer>
- 
-  <integer name="config_screenBrightnessDoze">5</integer>
-
- 
-  <string name="config_ims_package">com.mediatek.ims</string>
   
- 
-  </resources>
+</resources>
