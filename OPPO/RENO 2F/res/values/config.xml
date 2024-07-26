@@ -53,10 +53,7 @@
     </complex>
 
     <string name="config_ims_package">com.mediatek.ims</string>
-        <!-- 
-        <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
-        <string name="config_displayLightSensorType">android.sensor.light</string>
-        -->
+       
 
     <integer name="config_bluetooth_max_connected_audio_devices">1</integer>
     <integer name="config_screenBrightnessDoze">30</integer>
@@ -78,7 +75,7 @@
     <bool name="config_switch_phone_on_voice_reg_state_change">false</bool>
     <bool name="config_useDevInputEventForAudioJack">true</bool>
     <bool name="skip_restoring_network_selection">true</bool>
-<!--    <bool name="config_unplugTurnsOnScreen">true</bool>
+<!--   
     <bool name="config_suspendWhenScreenOffDueToProximity">false</bool>
     <bool name="config_automatic_brightness_available">false</bool>
     <bool name="config_enableWifiDisplay">true</bool>
