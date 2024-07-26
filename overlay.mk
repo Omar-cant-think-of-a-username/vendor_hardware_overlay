@@ -7,7 +7,7 @@ PRODUCT_PACKAGES += \
 	treble-overlay-SystemUI-FalseLocks \
 	treble-overlay-Telephony-LTE \
 	treble-overlay-alldocube-xneo \
-        treble-overlay-alps-vnd_oppo6771-systemui
+        treble-overlay-alps-vnd_oppo6771-systemui \
 	treble-overlay-asus-rogphone \
 	treble-overlay-asus-zenfone5 \
 	treble-overlay-asus-zenfone5-10 \
