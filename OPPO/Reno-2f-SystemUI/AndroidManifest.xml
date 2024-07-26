@@ -3,7 +3,7 @@
         android:versionCode="1"
         android:versionName="1.0">
         <overlay android:targetPackage="com.android.systemui"
-                android:requiredSystemPropertyName="ro.vendor.build.fingerprint
+                android:requiredSystemPropertyName="ro.vendor.build.fingerprint"
                 android:requiredSystemPropertyValue="+*alps/vnd_oppo6771*"
         android:isStatic="true" />
 </manifest>
