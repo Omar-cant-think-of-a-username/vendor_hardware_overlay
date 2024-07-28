@@ -41,7 +41,7 @@
         <string id="0x02000012">bluetooth,7,7,2,-1,true</string>
     </complex>
         -->
-    <complex name="config_mobile_tcp_buffers">
+    <string-array name="config_mobile_tcp_buffers">
         <string id="0x02000000">gprs:4092,8760,48000,4096,8760,48000</string>
         <string id="0x02000001">edge:4093,26280,70800,4096,16384,70800</string>
         <string id="0x02000002">umts:58254,1398100,4194304,58254,1398100,4194304</string>
@@ -52,7 +52,7 @@
         <string id="0x02000007">hspa:58254,1398100,4194304,58254,1398100,4194304</string>
         <string id="0x02000008">lte:2097152,4194304,8388608,262144,524288,1048576</string>
         <string id="0x02000009">hspap:58254,1398100,4194304,58254,1398100,4194304</string>
-    </complex>
+    </string-array>
 
     <string name="config_ims_package">com.mediatek.ims</string>
        
